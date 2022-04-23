@@ -1,5 +1,8 @@
-header {
+header a {
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
 }
 section {
     font-family: 'PT Serif', serif;
