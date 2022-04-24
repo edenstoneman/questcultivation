@@ -1,14 +1,39 @@
-header a {
+body {
+    text-decoration: none;
+    background-color: #49c4aa;
+}
+header {
+    width: 100%;
+}
+nav {
+    width: 100%;
+}
+section {
+    width: 100%;
+}
+h1 {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 80px;
+    font-weight: 400;
     text-align: center;
     text-decoration: none !important;
     text-transform: uppercase;
-}
-section {
-    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 p {
     font-family: 'PT Serif', serif;
     font-weight: 400;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*colors*/
+.puerto_rico {color: #49c4aa;}
+.boston_blue {color: #498cc4;}
+.fuschia_blue {color: #7f49c4;}
+.fuschia_pink {color: #c449b1;}
+.fuzzy_wuzzy_brown {color: #c44b49;}
