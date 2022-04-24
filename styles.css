@@ -1,39 +1,126 @@
 body {
     text-decoration: none;
-    background-color: #49c4aa;
+    background-color: #ce94c5;
+    margin: 0;
+
 }
 header {
     width: 100%;
+    display: inline-block;
+    height: 750px;
+    background-color: #498cc4;
 }
 nav {
-    width: 100%;
+    width: fit-content;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 0;
+    padding: 50px;
 }
 section {
-    width: 100%;
+    padding: 50px;
+    height: 500px;
+
 }
 h1 {
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 400;
     text-align: center;
     text-decoration: none !important;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
+h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
 p {
     font-family: 'PT Serif', serif;
+    font-size: 25px;
     font-weight: 400;
+    color: #2169a6;
 }
 a {
     text-decoration: none;
     color: inherit;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border: 4px solid #fff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+
+  }
+  
+  li a:hover {
+    background-color: #2169a6;
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+  img {
+    padding: 0;
+    width: 100%;
+    z-index: -1;
+    display: inline-block;
+  }
+  .plant {
+    width: 60%;
+    float: right;
+  }
+  .post {
+      border:4px solid #c44b49;
+      padding:50px;
+      margin: 50px 0;
+  }
 
 /*colors*/
 .puerto_rico {color: #49c4aa;}
+.darker_rico {color: #067b62;}
 .boston_blue {color: #498cc4;}
+.darker_boston {color: #2169a6;}
 .fuschia_blue {color: #7f49c4;}
+.light_fuschia {color: #ce94c5;}
 .fuschia_pink {color: #c449b1;}
 .fuzzy_wuzzy_brown {color: #c44b49;}
