@@ -13,7 +13,6 @@ header {
 nav {
     width: fit-content;
     display: inline-block;
-    float: left;
     position: absolute;
     top: 0;
     padding: 50px;
